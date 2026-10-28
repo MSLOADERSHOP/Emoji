@@ -15,7 +15,7 @@
 "id": "tiktok-verified-emoji-font",
 "type": "emoji_font",
 "name": "TikTok Verified Emoji Font",
-"version": "1.0.0",
+"version": "1.0.1",
 "author": "MSLOADERSHOP",
 "description": "Custom font using the private-use character U+E000. Display depends on font and app support.",
 "tags": [
@@ -26,8 +26,8 @@
 "custom"
 ],
 "path": "fonts/TikTok_Verified_Emoji_Font.ttf",
-"sha256": "55a6a608511a71ac4a1a5b0a3d62b3e1e785e7acdb3614814cf1ef262e0640be",
-"sizeBytes": 1472
+"sha256": "66e9a06c93c878656448fc3aa29f4d867848f1b7090ba99f8e068bc5119cd1fd",
+"sizeBytes": 1336
 },
 {
 "id": "tiktok-verified-badge-sticker",
