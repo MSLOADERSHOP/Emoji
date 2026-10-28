@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/wasi-master/wmkeyboard-addon-repository/main/docs/addons/wmkeyboard-repo.schema.json",
+  "format": "wmkeyboard-repo",
+  "version": 1,
+  "repo": {
+    "id": "com.custom.tiktokverified",
+    "name": "TikTok Verified Custom Badge",
+    "description": "Custom badge font and badge image for WM Keyboard.",
+    "author": "Custom",
+    "homepage": "https://github.com/",
+    "updatedAt": "2026-10-28"
+  },
+  "addons": [
+    {
+      "id": "tiktok-verified-emoji-font",
+      "type": "emoji_font",
+      "name": "TikTok Verified Emoji Font",
+      "version": "1.0.0",
+      "author": "Custom",
+      "description": "Custom single-glyph font using the private-use character U+E000. Rendering must be tested on device.",
+      "tags": [
+        "verified",
+        "tiktok",
+        "emoji",
+        "font",
+        "custom"
+      ],
+      "path": "fonts/TikTok_Verified_Emoji_Font.ttf",
+      "sha256": "55a6a608511a71ac4a1a5b0a3d62b3e1e785e7acdb3614814cf1ef262e0640be",
+      "sizeBytes": 1472
+    },
+    {
+      "id": "tiktok-verified-badge-sticker",
+      "type": "stickers",
+      "name": "TikTok Verified Badge",
+      "version": "1.0.0",
+      "author": "Custom",
+      "description": "Searchable badge image; inserts as a sticker/image, not Unicode text.",
+      "tags": [
+        "verified",
+        "tiktok",
+        "blue check",
+        "badge"
+      ],
+      "path": "stickers/TikTokVerified.wmstickers",
+      "sha256": "cdfecf7305d1579d430dfadd3dfd9feccb25e8f7c64bf78c5af37d25e7c1fd21",
+      "sizeBytes": 14843
+    }
+  ]
+}
